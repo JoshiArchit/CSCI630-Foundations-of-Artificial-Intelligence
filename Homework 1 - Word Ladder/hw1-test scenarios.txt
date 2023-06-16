@@ -1,0 +1,26 @@
+1. Search result from cold to warm
+Start : cold
+End : warm
+
+RESULT ->
+
+python hw1.py dict.txt cold warm
+cold
+cord
+word
+ward
+warm
+
+2. Search result from small to short
+Start : small
+End : short
+
+RESULT ->
+
+python hw1.py dict.txt small short
+small
+shall
+shale
+share
+shore
+short
