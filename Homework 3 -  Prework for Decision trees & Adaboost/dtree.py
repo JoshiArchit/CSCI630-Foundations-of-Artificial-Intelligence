@@ -1,7 +1,7 @@
 """
 Filename : dtree.py
 Author : Archit Joshi
-Description : Decision Tree
+Description : Decision Tree and Adaboost prework
 Language : Python3
 """
 
