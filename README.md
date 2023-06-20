@@ -16,4 +16,8 @@ CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
    script hw2.prolog to demonstrate the understanding of writing queries 
    using Prolog.</p>
    <br>
-3. <b>Homework 3 : 
+3. <b>[Homework 3 : Prework for Decision Tree & Adaboost](Homework%203%20-%20%20Prework%20for%20Decision%20trees%20&%20Adaboost)</b> 
+   <p>Introduction to Decision trees and Adaboost. <br>NOTE : This homework 
+   is not a complete implementation of decision trees and adaboost but just 
+   a first level introduction. The concepts are explored more in depth in 
+   Lab 3.</p>
