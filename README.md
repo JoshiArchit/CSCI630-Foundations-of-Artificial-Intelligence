@@ -11,7 +11,7 @@ CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
    (list of words) it will take to reach from source word 's' to target word 
    't'. Demonstrate the understanding of the shortest path algorithms.</p>
    <br>
-2. <b>[Homework 2 : Family Tree queries using Prolog](Homework%202%20-%20Prolog)</b>
+2. <b>[Homework 2 : Family Tree queries using Prolog](Homework%202%20-%20Family%20Tree%20queries%20using%20Prolog)</b>
     <p>Given the family tree in CSCI_630_Homework_2P_Writeup, complete the 
    script hw2.prolog to demonstrate the understanding of writing queries 
    using Prolog.</p>
