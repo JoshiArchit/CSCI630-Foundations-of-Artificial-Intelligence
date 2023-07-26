@@ -1,6 +1,6 @@
 """
 Filename : lab1.py
-Author : Archit Joshi (aj6082@rit.edu)
+Author : Archit Joshi
 Description : CSCI630 - Lab 1 : Summer Orienteering (A* algorithm implementation)
 Language : Python 3.11
 Revisions :
