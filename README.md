@@ -2,8 +2,8 @@
 <h3>Rochester Institute of Technology Spring 2023</h3>
 <br>
 CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
-
-<h4><b> ~ Index ~ </b></h4>
+<br>
+<h4><b> -------- INDEX --------</b></h4>
 <h5> Homeworks : </h5>
 <ol>
 
@@ -26,13 +26,26 @@ CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
 </ol>
 
 <h5> Labs : </h5>
+<p>Each Lab has an associated write-up to give information about implementation 
+instructions from the class instructor. A README file specific to the lab 
+will give implementation instructions. A report will give any additional 
+metrics/implementation notes if available.</p>
 <ol>
 
 1. <b>[Lab 1 : Summer Orienteering](Lab%201%20-%20Summer%20Orienteering)</b>
-   <p>Implementation of the A* algorithm. Refer to "CSCI630 - Lab 1 Report" 
-   for additional details and implementation notes.
-   Refer to "CSCI630 - Lab 1 Summer Orienteering - Writeup" for 
-   implementation instructions.
+   <p>Implementation of the A* algorithm to chart a shortest path between 
+   the waypoints of an Orienteering track for a given terrain.
+   </p>
+
+2. <b>[Lab 2 : FOL Resolution](Lab%202%20-%20FOL%20Resolution)</b>
+   <p>
+   Implementing a First Order Logic resolver that takes input as a CNF 
+   clause and outputs yes/no depending on if the clause can be resolved.
    </p>
 
 </ol>
+
+<br>
+NOTE - The assignments are implemented to gain understanding of a 
+concept. While attention has been given to complexity and cleanliness of 
+the code it may not be efficient and further adjustments can be made.
