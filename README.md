@@ -29,7 +29,10 @@ CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
 <ol>
 
 1. <b>[Lab 1 : Summer Orienteering](Lab%201%20-%20Summer%20Orienteering)</b>
-   <p>Implementation of the A* algorithm. Refer to CSCI630 - Lab 1 Report 
-   for additional details and implementation notes.</p>
+   <p>Implementation of the A* algorithm. Refer to "CSCI630 - Lab 1 Report" 
+   for additional details and implementation notes.
+   Refer to "CSCI630 - Lab 1 Summer Orienteering - Writeup" for 
+   implementation instructions.
+   </p>
 
 </ol>
