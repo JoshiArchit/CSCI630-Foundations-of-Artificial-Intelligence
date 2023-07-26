@@ -21,6 +21,7 @@ v1.12 - getChildren() function rewritten to resolve bugs and get correct childre
 v1.13 - Image drawing and troubleshooting.
 v1.14 - Calculating final distance using 3D euclidian distance.
 v1.15 - Added a validate input function separate of Orienteering class.
+v1.16 - Bug Fixes for img.putpixel() and Divide by zero/TLE
 """
 
 import math
@@ -337,6 +338,13 @@ class Orienteering:
         longitude = 10.29
         latitude = 7.55
 
+        if current.mobility == 0 or child.mobility == 0:
+            return float('inf')
+
+        # Ensure positive mobility values
+        mobility_current = max(0.01, current.mobility)
+        mobility_child = max(0.01, child.mobility)
+
         if current.xPos == child.xPos:
             # Determine which pixel the travel is on for speed value
             if current.yPos > child.yPos:
@@ -493,6 +501,7 @@ class Orienteering:
         """
 
         img = Image.open(file)
+        print(img.size)
         # Draw each pixel from the finalPath variable onto the terrain image
         for pixel in self.finalPath:
             img.putpixel((pixel[1], pixel[0]), (255, 0, 0))
@@ -526,11 +535,16 @@ class Orienteering:
                                   [item[0] - 1, item[1] - 1],  # A(x-1, y-1)
                                   [item[0] + 1, item[1] - 1]]  # A(x+1, y-1)
             # Put deep purple pixel at each linear neighbor
+            print(linear_neighbors)
             for neighbor in linear_neighbors:
-                img.putpixel((neighbor[0], neighbor[1]), color2)
+                x, y = neighbor
+                if 0 <= x < img.width and 0 <= y < img.height:
+                    img.putpixel((x, y), color2)
             # Put deep purple pixel at each diagonal neighbor
             for neighbor in diagonal_neighbors:
-                img.putpixel((neighbor[0], neighbor[1]), color2)
+                x, y = neighbor
+                if 0 <= x < img.width and 0 <= y < img.height:
+                    img.putpixel((x, y), color2)
             # Put light purple pixel at control point
             img.putpixel((item[0], item[1]), color1)
         return
