@@ -4,7 +4,7 @@
 <br>
 
 <h3> Execution Instructions </h3>
-<p> The directory testcases contains various testcases with their README 
+<p> The directory <b>testcases</b> contains various testcases with their README 
 files. The final distances are approximately accurate for most cases but can 
 vary depending on calculation and methodology.<br><br>
 Run the python file lab1.py from the commandline using below template : <br>
