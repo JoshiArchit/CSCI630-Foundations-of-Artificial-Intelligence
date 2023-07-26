@@ -1,0 +1,11 @@
+∀ %t rain(%t) → ¬sprinkler(%t)
+∀ %t1 %t2  rain(%t1) ∧ before(%t1,%t2) → ¬sprinkler(%t2)
+
+before(A,B)
+before(B,C)
+before(C,D)
+rain(A)
+rain(B)
+¬rain(C)
+¬rain(D)
+∀ %t sprinkler(%t)

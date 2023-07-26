@@ -1,0 +1,11 @@
+Predicates: yummy sweet brown burnt cookie chocolate 
+Variables: 
+Constants: 
+Functions: 
+Clauses:
+!sweet brown 
+!sweet !burnt 
+!cookie sweet 
+!chocolate yummy 
+!brown burnt 
+!brown chocolate 

@@ -1,0 +1,14 @@
+Predicates: rain night day dry bright sprinkler clear wet 
+Variables: t6 t3 t0 t2 t4 t8 t1 t7 t5 l0 
+Constants: 
+Functions: 
+Clauses:
+!day(t0) !night(t0) 
+day(t1) night(t1) 
+!wet(t4) !dry(t4) 
+!clear(t2) dry(t2) 
+!rain(t3) wet(t3) 
+sprinkler(t5,l0) !day(t5) !dry(t5) 
+bright(t6) !day(t6) !dry(t6) 
+wet(t7) 
+clear(t8) 

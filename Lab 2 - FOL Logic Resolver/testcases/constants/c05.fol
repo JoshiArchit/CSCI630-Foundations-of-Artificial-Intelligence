@@ -1,0 +1,3 @@
+dog(Jonsey)
+dog(Kim) -> animal(Kim)
+!animal(Kim) 

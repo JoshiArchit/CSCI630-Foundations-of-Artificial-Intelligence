@@ -1,0 +1,8 @@
+∀ %t day(%t) → ¬ night(%t)
+∀ %t day(%t) ∨ night(%t)
+∀ %t clear(%t) → dry(%t)
+∀ %t rain(%t) → wet(%t)
+∀ %t wet(%t) → ¬dry(%t)
+∀ %t day(%t) ∧ dry(%t)→  bright(%t)
+
+∀ %t ¬(¬bright(%t) → ( night(%t) ∨ ¬dry(%t) )) 

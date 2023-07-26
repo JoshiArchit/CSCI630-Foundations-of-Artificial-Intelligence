@@ -1,0 +1,15 @@
+Predicates: rain sprinkler night Nnight dry bright wet clear day 
+Variables: 
+Constants: 
+Functions: 
+Clauses:
+!clear dry 
+!day !night 
+day night 
+!sprinkler 
+sprinkler !day !dry 
+bright !day !dry 
+!rain wet 
+!wet !dry 
+!Nnight 
+dry 

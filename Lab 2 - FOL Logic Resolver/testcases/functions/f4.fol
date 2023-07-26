@@ -1,0 +1,11 @@
+∀ %x dog(%x) -> animal(%x)
+∀ %x ∃ %y dog(%x) ^ friendly(%x) -> person(%y) ^ loves(%y,%x)
+∀ %x ∃ %y dog(%x) -> partOf(%x,%y) ^ tail(%y)
+∃ %x man(%x) ^ angry(%x)
+∀ %x man(%x) -> person(%x)
+∀ %x person(%x) -> animal(%x)
+
+dog(Kim) ^ friendly(Kim)
+man(Mike)
+
+!∃ %x partOf(%x, Kim)

@@ -1,0 +1,18 @@
+Predicates: loves partOf tail dog animal friendly person man angry 
+Variables: x4 x6 x7 x1 x3 x0 x5 x2 
+Constants: Kim Mike SK0 
+Functions: SKF1 SKF2 SKF0 
+Clauses:
+!dog(x0) animal(x0) 
+person(SKF0(x1)) !dog(x1) !friendly(x1) 
+loves(SKF0(x2),x2) !dog(x2) !friendly(x2) 
+partOf(x7,SKF2(x7)) 
+!dog(x3) partOf(x3,SKF1(x3)) 
+!dog(x4) tail(SKF1(x4)) 
+!person(x6) animal(x6) 
+man(Mike) 
+!man(x5) person(x5) 
+dog(Kim) 
+friendly(Kim) 
+man(SK0) 
+angry(SK0) 

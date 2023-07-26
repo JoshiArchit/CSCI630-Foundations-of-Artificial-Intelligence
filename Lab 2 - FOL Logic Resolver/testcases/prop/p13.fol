@@ -1,0 +1,8 @@
+ Day → ¬ Night
+ Day ∨ Night
+ Clear → Dry
+ Day ∧ Dry→ Sprinkler ∧ Bright
+ Rain → Wet
+ Wet → ¬Dry
+
+¬(¬Bright ∧ Clear → Night)
