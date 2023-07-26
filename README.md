@@ -5,6 +5,8 @@ CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
 
 <h4><b> ~ Index ~ </b></h4>
 <h5> Homeworks : </h5>
+<ol>
+
 1. <b>[Homework 1 : Word Ladder](Homework%201%20-%20Word%20Ladder)</b>
    <p>Implementing word ladder in python. </p>
    <p>Objective : While changing only one letter each turn find the path 
@@ -21,3 +23,13 @@ CSCI630 - Foundations of Artificial Intelligence Labs and homework assignments.
    is not a complete implementation of decision trees and adaboost but just 
    a first level introduction. The concepts are explored more in depth in 
    Lab 3.</p>
+</ol>
+
+<h5> Labs : </h5>
+<ol>
+
+1. <b>[Lab 1 : Summer Orienteering](Lab%201%20-%20Summer%20Orienteering)</b>
+   <p>Implementation of the A* algorithm. Refer to CSCI630 - Lab 1 Report 
+   for additional details and implementation notes.</p>
+
+</ol>
