@@ -48,7 +48,7 @@ metrics/implementation notes if available.</p>
 3. <b>[Lab 3 : Decision Trees](Lab%203%20-%20Decision%20Tree)</b>
    <p>   
    Implementing a Language classifier using a decision tree 
-   and testing accuracy.
+   and testing accuracy. Check README_Lab3 for execution instructions.<br>
    The Adaboost part of the problem is still in progress.
    </p>
 </ol>
