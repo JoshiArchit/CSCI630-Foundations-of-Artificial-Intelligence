@@ -36,13 +36,21 @@ metrics/implementation notes if available.</p>
    <p>Implementation of the A* algorithm to chart a shortest path between 
    the waypoints of an Orienteering track for a given terrain.
    </p>
+<br>
 
 2. <b>[Lab 2 : FOL Resolution](Lab%202%20-%20FOL%20Resolution)</b>
    <p>
    Implementing a First Order Logic resolver that takes input as a CNF 
    clause and outputs yes/no depending on if the clause can be resolved.
    </p>
+<br>
 
+3. <b>[Lab 3 : Decision Trees](Lab%203%20-%20Decision%20Tree)</b>
+   <p>   
+   Implementing a Language classifier using a decision tree 
+   and testing accuracy.
+   The Adaboost part of the problem is still in progress.
+   </p>
 </ol>
 
 <br>
